@@ -4,6 +4,7 @@ $(document).ready(function() {
   editor.getSession().setMode("ace/mode/python");
 
   $('.getCode').click(function() {
+    // event.preventDefault();
     console.log(editor.getValue());
   });
 });
