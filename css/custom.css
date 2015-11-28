@@ -1,0 +1,72 @@
+.navbar {
+ background-color: #470E40;
+ margin-bottom: 0;
+ border: none;
+ border-radius: 0;
+}
+
+.navbar .navbar-right {
+  padding-right: 30px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #c381b6;
+}
+
+
+
+/*indexpage*/
+
+.jumbotron {
+  background-color: #470E40;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+}
+
+.vertical-center {
+   min-height: 40vh; 
+   display: flex;
+   align-items: center;
+}
+
+
+blockquote {
+  display: inline-block;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  width: 60%;
+}
+blockquote:before {
+  color: #06908F;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote h2 {
+  display: inline;
+  color: #06908F;
+  font-size: 3em;
+}
+
+.img-quote {
+  display: inline;
+  width: 30%;
+  margin-left: 5%;
+  border-radius: 100%;
+}
+
+
