@@ -240,6 +240,20 @@ blockquote h2 {
   text-transform: uppercase;
 }
 
+.links-buttons-arabic{
+  margin-right: 28%;
+}
+
+.links-pages-arabic {
+  border: solid #43203B 3px;
+  background-color: #43203B;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 5%;
+  text-transform: uppercase;
+}
+
+
 a.links-pages:hover {
   text-decoration: none;
   color: #CB9DC2;
