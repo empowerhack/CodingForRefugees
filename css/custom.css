@@ -150,5 +150,21 @@ ul li {
 }
 
 .basic-web-dev {
+  background-color: #C7EFCF; /*minty blue*/
+}
 
+.advanced-web-dev {
+  background-color: #FE5F55; /*coral*/
+}
+
+.comp-sci {
+  background-color: #6369D1; /*blue*/
+}
+
+.lang-resources {
+  background-color: #5DD39E; /*green*/
+}
+
+.female-groups {
+  background-color: #F4B9B2; /*pink*/gi
 }
