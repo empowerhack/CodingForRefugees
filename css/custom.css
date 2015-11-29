@@ -4,7 +4,13 @@ body {
 }
 
 .container-fluid {
-  padding: 0 100px;
+  padding: 0 50px;
+}
+
+@media screen and (min-width: 1100px) {
+  .container-fluid {
+    padding: 0 100px;
+  }
 }
 
 .navbar {
@@ -14,21 +20,60 @@ body {
  border-radius: 0;
 }
 
-.navbar .navbar-right {
-  padding-right: 30px;
-  padding-top: 30px;
+#arabic{
+  float: left;
+}
+
+.content-navbar {
+  padding: 30px;
   text-transform: uppercase;
 }
+
+.translation-button {
+  color: white;
+  border: 2px solid white;
+  padding: 0 10px 10px 10px;
+}
+
+a.translation-button:hover{
+  background-color: white;
+  color: #43203B;
+  text-decoration: none;
+}
+
+.content-navbar li{
+  position: relative;
+}
+
+/*
+.content-navbar li:first-child:before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url(../img/home.svg);
+  background-size: 20px 20px;
+  left: -20px;
+  position: absolute;
+}
+
+.content-navbar li:nth-child(2):before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url(../img/womancode.svg);
+  background-size: 20px 20px;
+  left: -20px;
+  top:50%;
+  position: absolute;
+}*/
 
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #CB9DC2;
+  color: #CB9DC2; /*light purple*/
 }
-
-
 
 /*indexpage*/
 
@@ -39,8 +84,33 @@ body {
   min-height: 40vh;
 }
 
-.jumbotron h1 {
+.main-title {
   text-transform: uppercase;
+  position: relative;
+}
+
+.main-title:before {
+  width: 100px;
+  height: 100px;
+  content: " ";
+  background-image: url(../img/womencode.svg);
+  background-size: 100px 100px;
+  left: 50px;
+  top: -36px;
+  position: absolute;
+}
+
+.main-title-arabic:before {
+  width: 100px;
+  height: 100px;
+  content: " ";
+  background-image: url(../img/womencode.svg);
+  background-size: 100px 100px;
+  left: 50px;
+  top: -36px;
+  position: absolute;
+  margin: 10%;
+  margin-left: 28%;
 }
 
 .italic-header {
@@ -57,7 +127,7 @@ body {
 
 blockquote {
   display: inline-block;
-  border-left: 10px solid #06908F;
+  border-left: 8px solid #06908F;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
   width: 60%;
@@ -70,6 +140,16 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0;
+  vertical-align: -0.4em;
+}
+
+
 blockquote h2 {
   display: inline;
   color: black;
@@ -88,20 +168,24 @@ blockquote h2 {
   margin-left: 15%;
 }
 
-
 .quotes div:nth-child(2) blockquote {
   margin-left: 15%;
+  width: 64%;
 }
 
+.quotes div:first-child {
+  margin-bottom: 50px;
+}
 
 .why {
   margin-top: 100px;
 }
 
-
 .why-boxes, .resource-boxes {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 100px 0;
 }
 
 .why h1 {
@@ -121,17 +205,44 @@ blockquote h2 {
   border-bottom: 4px solid #06908F;
 }
 
+
 .why-box, .resource-box {
   width: 20%;
+  width: 40%;
   border: solid 2px #544F54;
   padding: 10px;
   border-radius: 5%;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1100px) {
+  .why-box {
+    width: 20%;
+    margin-bottom: 0;
+  }
 }
 
 .why-box img {
-  max-width: 50px;
+  max-width: 100px;
   display: block;
   margin: 20px auto;
+}
+
+.links-buttons{
+  margin-left: 28%;
+}
+.links-pages {
+  border: solid #43203B 3px;
+  background-color: #43203B;
+  color: white;
+  padding: 10px 25px;
+  margin-right: 5%;
+  text-transform: uppercase;
+}
+
+a.links-pages:hover {
+  text-decoration: none;
+  color: #CB9DC2;
 }
 
 footer {
@@ -141,6 +252,39 @@ footer {
   color: white;
   font-style: italic;
   padding-left: 50px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.img-tutorial{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+ol li{
+  color:#06908F;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+ol li span{
+  color:#333;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#tutorial{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 20px;
 }
 
 /* resources page */
@@ -161,9 +305,9 @@ ul li {
 }
 
 .resource-box {
-  position: relative;
+  width: 20%;
   background-color: #ffffff;
-  margin: 20px;
+  margin-bottom: 20px;
   height: 250px;
   padding: 15px;
   font-size: 14px;
