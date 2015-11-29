@@ -149,16 +149,20 @@ footer {
 
 ol li{
   color:#06908F;
-  font-size: 2em;
   font-weight: bold;
+  font-size: 24px;
 }
 
 ol li span{
   color:#333;
   font-weight: normal;
+  font-size: 20px;
 }
 
 #tutorial{
   margin-right: 15%;
   margin-left: 15%;
+  font-size: 20px;
 }
+
+
