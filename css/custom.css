@@ -225,13 +225,15 @@ blockquote h2 {
   margin: 20px auto;
 }
 
-
+.links-buttons{
+  margin-left: 28%;
+}
 .links-pages {
   border: solid #43203B 3px;
   background-color: #43203B;
   color: white;
   padding: 10px 25px;
-  margin-right: 30px;
+  margin-right: 5%;
   text-transform: uppercase;
 }
 
