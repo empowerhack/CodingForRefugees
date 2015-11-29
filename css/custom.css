@@ -144,8 +144,9 @@ footer {
 }
 
 /* resources page */
+
 .section-header {
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 ul li {
