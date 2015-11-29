@@ -68,6 +68,10 @@ a.translation-button:hover{
   position: relative;
 }
 
+.main-title-arabic {
+  position: relative;
+}
+
 .main-title:before {
   width: 100px;
   height: 100px;
@@ -85,11 +89,9 @@ a.translation-button:hover{
   content: " ";
   background-image: url(../img/womencode.svg);
   background-size: 100px 100px;
-  left: 50px;
+  left: 200px;
   top: -36px;
   position: absolute;
-  margin: 10%;
-  margin-left: 28%;
 }
 
 .italic-header {
