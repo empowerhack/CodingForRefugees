@@ -327,7 +327,8 @@ ul li {
 
 .basic-web-dev {
   margin-top: -100px;
-  background-color: #C7EFCF; /*minty blue*/
+  background-color: #82D4BB; /*minty blue*/
+  color: #FFFFFF;
 }
 
 .advanced-web-dev {
@@ -345,5 +346,6 @@ ul li {
 }
 
 .female-groups {
-  background-color: #F4B9B2; /*pink*/
+  background-color: #AA2256; /*pink-red*/
+  color: #FFFFFF;
 }
