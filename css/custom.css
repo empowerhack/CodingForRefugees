@@ -154,17 +154,18 @@ ul li {
 }
 
 .resource-icon {
-  height: auto;
+  height: 80px;
   max-width: 80px;
   display: block;
   margin: 5px auto;
 }
 
 .resource-box {
+  position: relative;
   background-color: #ffffff;
   margin: 20px;
   height: 250px;
-  padding: 20px;
+  padding: 15px;
   font-size: 14px;
   color: #000000;
 }
