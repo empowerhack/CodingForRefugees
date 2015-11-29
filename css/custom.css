@@ -100,18 +100,6 @@ a.translation-button:hover{
   position: absolute;
 }
 
-.main-title-arabic:before {
-  width: 100px;
-  height: 100px;
-  content: " ";
-  background-image: url(../img/womencode.svg);
-  background-size: 100px 100px;
-  left: 50px;
-  top: -36px;
-  position: absolute;
-  margin: 10%;
-  margin-left: 28%;
-}
 
 
 .italic-header {
