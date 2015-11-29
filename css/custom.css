@@ -290,7 +290,8 @@ ol li span{
 /* resources page */
 
 .section-header {
-  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: -20px;
 }
 
 ul li {
