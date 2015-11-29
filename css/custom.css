@@ -142,5 +142,18 @@ footer {
   padding-left: 50px;  
 }
 
+.img-tutorial{
+  width: 100%;
+  margin-bottom: 5%;
+}
 
+ol li{
+  color:#06908F;
+  font-size: 2em;
+  font-weight: bold;
+}
 
+ol li span{
+  color:#333;
+  font-weight: normal;
+}
