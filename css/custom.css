@@ -1,5 +1,14 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.container-fluid {
+  padding: 0 100px;
+}
+
 .navbar {
- background-color: #470E40;
+ background-color: #43203B; /*purple*/
  margin-bottom: 0;
  border: none;
  border-radius: 0;
@@ -16,7 +25,7 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #c381b6;
+  color: #CB9DC2;
 }
 
 
@@ -24,32 +33,36 @@
 /*indexpage*/
 
 .jumbotron {
-  background-color: #470E40;
+  background-color: #43203B; /*purple*/
   color: white;
   margin-bottom: 100px;
+  min-height: 40vh; 
 }
 
 .jumbotron h1 {
   text-transform: uppercase;
 }
 
+.italic-header {
+  font-weight: 300;
+  font-style: italic;
+  color: #CB9DC2;
+}
+
 .vertical-center {
-   min-height: 40vh; 
    display: flex;
    align-items: center;
 }
 
-
 blockquote {
   display: inline-block;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
+  border-left: 10px solid #06908F;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
   width: 60%;
 }
 blockquote:before {
-  color: #06908F;
+  color: #06908F; /*turkis*/
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -58,15 +71,76 @@ blockquote:before {
 }
 blockquote h2 {
   display: inline;
-  color: #06908F;
-  font-size: 3em;
+  color: black;
+  font-size: 2.2em;
+  color: #544F54; /*grey*/
+  font-style: italic;
 }
 
 .img-quote {
   display: inline;
-  width: 30%;
-  margin-left: 5%;
+  width: 20%;
   border-radius: 100%;
 }
+
+.quotes div:first-child .img-quote {
+  margin-left: 15%;
+}
+
+
+.quotes div:nth-child(2) blockquote {
+  margin-left: 15%;
+}
+
+
+.why {
+  margin-top: 100px;
+}
+
+
+.why-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why h1 {
+  position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.why h1:before {
+  content : "";
+  position: absolute;
+  left: 25%;
+  bottom  : -25px;
+  height  : 1px;
+  width   : 50%; 
+  border-bottom: 4px solid #06908F;
+}
+
+.why-box {
+  width: 20%;
+  border: solid 2px #544F54;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.why-box img {
+  max-width: 50px;
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  background-color: #06908F;
+  color: white;
+  font-style: italic;
+  padding-left: 50px;  
+}
+
 
 
