@@ -20,6 +20,10 @@ body {
  border-radius: 0;
 }
 
+#arabic{
+  float: left;
+}
+
 .content-navbar {
   padding: 30px;
   text-transform: uppercase;
