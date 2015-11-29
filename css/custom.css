@@ -37,6 +37,32 @@ a.translation-button:hover{
   text-decoration: none;
 }
 
+.content-navbar li{
+  position: relative;
+}
+
+/*
+.content-navbar li:first-child:before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url(../img/home.svg);
+  background-size: 20px 20px;
+  left: -20px;
+  position: absolute;
+}
+
+.content-navbar li:nth-child(2):before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url(../img/womancode.svg);
+  background-size: 20px 20px;
+  left: -20px;
+  top:50%;
+  position: absolute;
+}*/
+
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
@@ -54,9 +80,22 @@ a.translation-button:hover{
   min-height: 40vh; 
 }
 
-.jumbotron h1 {
+.main-title {
   text-transform: uppercase;
+  position: relative;
 }
+
+.main-title:before {
+  width: 100px;
+  height: 100px;
+  content: " ";
+  background-image: url(../img/womencode.svg);
+  background-size: 100px 100px;
+  left: 50px;
+  top: -36px;
+  position: absolute;
+}
+
 
 .italic-header {
   font-weight: 300;
