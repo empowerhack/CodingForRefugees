@@ -99,7 +99,7 @@ blockquote h2 {
 }
 
 
-.why-boxes {
+.why-boxes, .resource-boxes {
   display: flex;
   justify-content: space-between;
 }
@@ -121,7 +121,7 @@ blockquote h2 {
   border-bottom: 4px solid #06908F;
 }
 
-.why-box {
+.why-box, .resource-box {
   width: 20%;
   border: solid 2px #544F54;
   padding: 10px;
@@ -144,21 +144,53 @@ footer {
 }
 
 /* resources page */
+.section-header {
+  margin-bottom: 30px;
+}
 
 ul li {
   list-style-type: none;
 }
 
+.resource-icon {
+  height: auto;
+  max-width: 80px;
+  display: block;
+  margin: 5px auto;
+}
+
+.resource-box {
+  background-color: #ffffff;
+  margin: 20px;
+  height: 250px;
+  padding: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.resource-box a {
+  text-decoration: none;
+}
+
+.resource-box:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .basic-web-dev {
+  margin-top: -100px;
   background-color: #C7EFCF; /*minty blue*/
 }
 
 .advanced-web-dev {
   background-color: #FE5F55; /*coral*/
+  color: #FFFFFF;
 }
 
 .comp-sci {
   background-color: #6369D1; /*blue*/
+  color: white;
 }
 
 .lang-resources {
@@ -166,5 +198,5 @@ ul li {
 }
 
 .female-groups {
-  background-color: #F4B9B2; /*pink*/gi
+  background-color: #F4B9B2; /*pink*/
 }
