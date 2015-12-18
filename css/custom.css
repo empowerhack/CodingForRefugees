@@ -215,6 +215,10 @@ blockquote h2 {
   margin: 20px auto;
 }
 
+.video{
+  text-align: center;
+}
+
 .links-buttons{
   display: flex;
   flex-wrap: wrap;
