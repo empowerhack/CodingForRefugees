@@ -294,7 +294,13 @@ ol li span{
   font-size: 20px;
 }
 
-#updates{
+#about{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+
+#joinus{
   margin-right: 15%;
   margin-left: 15%;
   font-size: 20px;
