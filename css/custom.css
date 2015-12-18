@@ -210,19 +210,26 @@ blockquote h2 {
 }
 
 .links-buttons{
-  margin-left: 28%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .links-pages {
   border: solid #43203B 3px;
   background-color: #43203B;
   color: white;
   padding: 10px 25px;
   margin-right: 5%;
+  margin-left: 5%;
   text-transform: uppercase;
+  margin-top: 2%;
 }
 
 .links-buttons-arabic{
-  margin-right: 28%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .links-pages-arabic {
@@ -247,6 +254,11 @@ footer {
   color: white;
   font-style: italic;
   padding-left: 50px;
+}
+
+footer h4.arabic{
+  margin-right: 2%;
+
 }
 
 footer a {
@@ -277,6 +289,12 @@ ol li span{
 }
 
 #tutorial{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+
+#updates{
   margin-right: 15%;
   margin-left: 15%;
   font-size: 20px;
@@ -315,8 +333,7 @@ ul li {
 }
 
 .resource-box:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #F0F0F0;
   text-decoration: none;
 }
 
